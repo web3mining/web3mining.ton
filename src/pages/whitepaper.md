@@ -1,15 +1,16 @@
 ---
+id: whitepaper
 title: Whitepaper
+hide_table_of_contents: false
 ---
 
 # Whitepaper
 
 ## Introduction
 
-Цифровая экономика – экономика инноваций, развивающаяся за счет эффективного внедрения передовых информационных технологий.
+The digital economy is an economy that develops by saving advanced information technologies.
 
-Криптовалюта – это виртуальные деньги, которые в отличие от фиатных средств не имеют физического выражения. Единицей такой валюты является «coin» (переводе с английского языка – «монета»). Особенностью денежной единицы является защита от подделки, так как в ней зашифрованы данные, не подлежащие дублированию. Ключевой особенностью криптовалюты является отсутствие какого-либо внутреннего или внешнего администратора. Поэтому банки, налоговые, судебные и иные государственные и частные органы не могут воздействовать на транзакции какихлибо участников платежной системы. Передача криптовалют необратима – никто не может отменить, заблокировать, оспорить или принудительно (без приватного ключа) совершить транзакцию. Криптовалюта – это внутренняя расчетная единица любого публичного блокчейна (Public blockchain), т.е. блокчейна, в котором используется майнинг (в виде P-o-W или P-o-S). Майнинг – необходимый и важный процесс в публичном блокчейне, и криптовалюта выступает в роли стимула для майнеров. Кроме того, криптовалюта используется для транзакционных комиссий. Также ее можно
-продать (обменять на фиатные деньги).
+Cryptocurrency is virtual money, which, unlike fiat money, is not widely used. The unit of such a currency is "coin" (translated from English - "coin"). A feature of the currency is protection against forgery, since it encrypts data that cannot be duplicated. The key feature of the cryptocurrency is the absence of any internal or external administrator. Therefore, banks, tax, judicial and private authorities cannot influence the size of any participants in the payment system. The transfer of cryptocurrency is irreversible - no one can cancel, block, challenge or demand (without a private key) the transaction. Cryptocurrency is an internal unit of account of any public market (Public blockchain), i.e. campaign in which mining is used (in the form of PoW or PoS). Mining is a necessary and important process in public attraction, and public interest cryptocurrency in the area of ​​incentives for miners. In addition, cryptocurrency is used for transaction fees.
 
 ### What is Web3Mining?
 
@@ -19,7 +20,7 @@ Smart contract: [NFT Collection](https://github.com/web3mining/token-contract/bl
 
 Smart contract: [NFT Item](https://github.com/web3mining/token-contract/blob/main/nft/nft-item.fc)
 
-## General Principles
+### General Principles
 
 Built For Miners by Miners
 
@@ -33,19 +34,19 @@ Web3Mining is a DAO with a mission to simplify the intricate world of crypto min
 
 We decided to offer the community a universal and convenient product suitable for both professional market players and crypto enthusiasts: we have created a unique NFT collection Workers, backed by the real computing power of our device fleet.
 
-## What does a holder of the W3M NFT collection get?
+### What does a holder of the W3M NFT collection get?
 
 1. Wekkly TON rewards in you wallet
 2. Choice of NFT in terms of power and energy efficiency
 3. A pool game with the potential to mine more BTC
 
-## NFT Workers
+### NFT Workers
 
 Each NFT of W3M collection is initially configured with computing power for mining. The computing power of each NFT will grow as real equipment is connected to the project's mining pool.
 
 The overall Workers power of the collection is XX,XX TH/s. There are XX,XX NFTs in total.
 
-## NFT Energy Efficiency
+### NFT Energy Efficiency
 
 NFT miners can vary not only in terms of computing power, but also in their energy efficiency.
 
@@ -54,7 +55,7 @@ We’d like to point your attention to NFTs featuring the following energy effic
 - Air Cooling — 50 W/TH
 - Hydro Cooling — 25 W/TH
 
-## Principles of Mining Rewards Distribution
+### Principles of Mining Rewards Distribution
 
 RI = PI - ((F1+F2)\*(1-Σd))-(F3+F4)
 
@@ -108,6 +109,14 @@ A situation in which RI<0 may arise during an extreme and prolonged drop in BTC 
 
 To avoid equipment shutdown and continue to distribute BTCs, we have developed the following response protocol:
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 1. In the event of a sharp drop in BTC, we will stop making contributions to the insurance fund (F3), and redirect funds to cover expenses (F1).
 2. If insurance premiums do not cover electricity costs, we will send management cost payments (F4) to cover costs (F1).
 3. If insurance premiums and management costs (F4) do not cover electricity costs (F1) we will implement the insurance fund.
@@ -116,7 +125,7 @@ To avoid equipment shutdown and continue to distribute BTCs, we have developed t
 
 Management costs – are the costs for IT development, management, and legal support of the project.
 
-## ROI
+### ROI
 
 - Anticipated ROI is calculated based on current BTC rewards. It shows how NFT may pay off in the future.
 - Electricity fee - It's a share that we deduct from your pool reward. The lower the W/TH of the NFT, the lower the F1 electricity fee, so your net reward is higher.
@@ -124,7 +133,7 @@ Management costs – are the costs for IT development, management, and legal sup
 - Payback period
 - Historical ROI is calculated based on real historical data of BTC rewards. It shows how NFT would have paid off if you had bought it earlier.
 
-## Tokenomics
+### Tokenomics
 
 NFTs are issued on the TON blockchain using the TEP-62 standard.
 
