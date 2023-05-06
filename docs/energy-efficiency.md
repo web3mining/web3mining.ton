@@ -22,7 +22,7 @@ All current miners have this energy efficiency.
 
 These are the most energy-efficient miners in our NFT collection, your electricity fees will be the lowest.
 
-## Energy efficiency VS Electricity fee (F1)
+### Energy efficiency VS Electricity fee (F1)
 
 The lower the W/TH of the NFT, the lower the F1 electricity fee, that's deducted from your rewards. And so the net reward is higher.
 The cost of electricity is variable and depends on various factors. For calculations, we always take the average electricity cost for the project over the billing period. It ranges from from $0.045 to $0.07 per 1 kW.
