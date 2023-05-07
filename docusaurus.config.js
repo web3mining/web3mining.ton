@@ -10,6 +10,9 @@ const config = {
   tagline:
     "W3M helps you mine BTC without having to buy expensive equipment or having to figure out how to set it up and connect it. NFT collections will make it easier for you to get started with mining.",
   favicon: "img/favicon.ico",
+  markdown: {
+    mermaid: true,
+  },
   themes: ["@docusaurus/theme-live-codeblock", "@docusaurus/theme-mermaid"],
 
   // Set the production url of your site here
