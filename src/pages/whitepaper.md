@@ -16,9 +16,11 @@ Cryptocurrency is virtual money, which, unlike fiat money, is not widely used. T
 
 W3M is the first example of a "Non-Fungible Token" backed by real Worker power. It’s an inspiration for the [TEP-62](https://github.com/ton-blockchain/TEPs/blob/master/text/0062-nft-standard.md) standard that powers Web3, Workers and bitcoin mining.
 
+:::tip
 Smart contract: [NFT Collection](https://github.com/web3mining/token-contract/blob/main/nft/nft-collection.fc)
 
 Smart contract: [NFT Item](https://github.com/web3mining/token-contract/blob/main/nft/nft-item.fc)
+:::
 
 ### General Principles
 
@@ -36,7 +38,7 @@ We decided to offer the community a universal and convenient product suitable fo
 
 ### What does a holder of the W3M NFT collection get?
 
-1. Wekkly TON rewards in you wallet
+1. Weekly TON rewards in you wallet
 2. Choice of NFT in terms of power and energy efficiency
 3. A pool game with the potential to mine more BTC
 
@@ -81,7 +83,7 @@ The actual amount of BTC is accrued daily by the pool for 1 TH/s via FPPS. 'PI' 
 
 The electricity costs for each NFT in the collection are calculated using the following formula:
 
-> F1 = (kWh cost*24) / 1000 / BTC course in TON * Energy efficiency \* Hashrate
+> F1 = (kWh cost*24) / 1000 / BTC course in USD * Energy efficiency \* Hashrate
 
 ### F2 (Service Costs)
 
@@ -117,9 +119,13 @@ graph TD;
     C-->D;
 ```
 
+:::info
+
 1. In the event of a sharp drop in BTC, we will stop making contributions to the insurance fund (F3), and redirect funds to cover expenses (F1).
 2. If insurance premiums do not cover electricity costs, we will send management cost payments (F4) to cover costs (F1).
 3. If insurance premiums and management costs (F4) do not cover electricity costs (F1) we will implement the insurance fund.
+
+:::
 
 ### F4 (Management Costs)
 
@@ -142,3 +148,5 @@ Contract Collection:
 Jetton: W3M jetton
 
 The computing power of each NFT will grow as real equipment is connected to the project's mining pool. As we roll out new capacity (by connecting new miners) at the data centers for the NFT project, we will put more computing power into the issue, whereby through redistribution, the value (in terms of computing power) of each separate NFT will grow.
+
+###
