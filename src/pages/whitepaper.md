@@ -237,7 +237,7 @@ JSON:
 
 The flow
 
-```mermid
+```mermaid
 flowchart TD
     A(Start) --> B(Get token)
     B --> C{Return error?}
