@@ -149,4 +149,103 @@ Jetton: W3M jetton
 
 The computing power of each NFT will grow as real equipment is connected to the project's mining pool. As we roll out new capacity (by connecting new miners) at the data centers for the NFT project, we will put more computing power into the issue, whereby through redistribution, the value (in terms of computing power) of each separate NFT will grow.
 
-###
+### Protocol
+
+API TCP Worker
+
+> Notice:
+>
+> 1. If no data is received within 10 seconds after the port is connected, the
+>    connection will time out and be closed.
+> 2. `worker` supports max 16 IP clients, one IP can get 32 tokens, and a token
+>    keepalive time is 30 minutes
+
+JSON API return format:
+
+```json
+{
+    "STATUS": "string",
+    "When": 12345678, #integer
+    "Code": 133,
+    "Msg": "string", #string or object
+    "Description": "string",
+}
+```
+
+Message Code:
+
+| Code | Message                     |
+| ---- | --------------------------- |
+| 14   | invalid API command or data |
+| 23   | invalid JSON message        |
+| 45   | permission denied           |
+| 131  | command OK                  |
+| 132  | command error               |
+| 134  | get token message OK        |
+| 135  | check token error           |
+| 136  | token over max times        |
+| 137  | base64 decode error         |
+
+#### API ciphertext
+
+Notice: the readable API supports two communication modes: plaintext andciphertext; the writable API supports only ciphertext communication.
+
+Encryption algorithm:
+
+```
+Ciphertext = aes256(plaintext)，ECB mode
+Encode text = base64(ciphertext)
+```
+
+Steps as follows:
+
+```(1)api_cmd = token,$sign|api_str
+(2)enc_str = aes256(api_cmd, $key)
+(3)tran_str = base64(enc_str)
+api_str is API command plaintext
+```
+
+Generate aeskey step：
+
+```
+(1)Get token from worker: $time $salt $newsalt
+(2)Generate key:
+key = md5(salt + admin_password)
+Reference code:
+key = `openssl passwd -1 -salt $salt "${admin_password}"`
+(3)Generate aeskey:
+aeskey = sha256($key)
+```
+
+e.g.:
+
+```set_led|auto ->
+token,$sign|set_led|auto ->
+ase256("token,sign|set_led|auto", $aeskey) ->
+base64(ase256("token,sign|set_led|auto", $aeskey) ) ->
+enc|base64(ase256("token,sign|set_led|auto", $aeskey))
+```
+
+JSON:
+
+```json
+{
+    "enc": 1, # integer
+    "data": "base64 str"
+}
+```
+
+The flow
+
+```mermid
+flowchart TD
+    A(Start) --> B(Get token)
+    B --> C{Return error?}
+    C --> D(END)
+    C --> E{Token}
+    E --> A
+    E --> F["aes256(api cmd(with sign))"]
+    F --> G["base64(api cmd)"]
+    G --> H[Send API]
+    H --> I["Receive msg(ciphertext)"]
+```
