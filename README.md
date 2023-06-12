@@ -1,8 +1,8 @@
 # Web3Mining
 
-Join the NFT BTC Mining Revolution on The Open Network
+Join the NFT BTC Mining evolution on The Open Network
 
-Build your Web3 mining business and earn weekly TON rewards.
+Build your Web3Mining business and earn weekly TON rewards.
 
 [Select NFT](https://getgems.io/nft/EQC9ydHxiHVaU4iBat7fhWiWdLrL1WKHnfIYxt95udWt5iP8)
 
