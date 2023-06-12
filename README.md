@@ -1,77 +1,77 @@
 # Web3Mining
 
-Присоединяйтесь к NFT революции майнинга BTC в The Open Network
+Join the NFT BTC Mining Revolution on The Open Network
 
-Создайте свой майнинг-бизнес в Web3 и получайте еженедельные вознаграждения в TON.
+Build your Web3 mining business and earn weekly TON rewards.
 
-[Выбрать NFT](https://getgems.io/nft/EQC9ydHxiHVaU4iBat7fhWiWdLrL1WKHnfIYxt95udWt5iP8)
+[Select NFT](https://getgems.io/nft/EQC9ydHxiHVaU4iBat7fhWiWdLrL1WKHnfIYxt95udWt5iP8)
 
-# Как это работает?
+# How it works?
 
-## Web3Mining VS традиционный майнинг
+## Web3Mining VS traditional mining
 
-Мы сравнили окупаемость WhatsMiner M50 118 TH/s и нашего Web3Mining NFT с аналогичной ценой. Рентабельность цифрового майнера выше. На это есть 3 причины:
+We compared the payback of WhatsMiner M50 118 TH/s and our Web3Mining NFT with a similar price. The profitability of a digital miner is higher. There are 3 reasons for this:
 
-1. Лучшая цена на электроэнергию, которую вы можете себе представить. Всего 0,088$ за 1кВт/ч.(https://farms.emcd.io/ 4.9rub)
-2. Первоклассный сервис. Приобретая Web3Mining NFT, вам не нужно самостоятельно обслуживать свой парк устройств.
-3. Система скидок.
+1. The best electricity price you can imagine. Only $0.088 for 1kWh.(https://farms.emcd.io/ 4.9rub)
+2. First class service. By purchasing Web3Mining NFT, you do not need to maintain your fleet of devices yourself.
+3. System of discounts.
 
-С Web3Mining NFT майнинг доступен каждому. Вы никогда не купите настоящий майнер за 100 TON, но наши цифровые майнеры стоят именно столько и приносят доход, после покупки.
+With Web3Mining NFT mining is available to everyone. You will never buy a real miner for 100 TON, but our digital miners cost exactly that much and generate income after purchase.
 
-| Традиционный майнинг |              | Web3Mining NFT |              |
-| -------------------- | ------------ | -------------- | ------------ |
-| ROI                  | 9.7%/год     | ROI            | 28.62% /год  |
-| Electricity          | 0.088$/кВт/ч | Electricity    | 0.082$/кВт/ч |
-| Maintenance          | 2$/день      | Maintenance    | 0$/день      |
+| Traditional mining |            | Web3Mining NFT |              |
+| ------------------ | ---------- | -------------- | ------------ |
+| ROI                | 9.7%/year  | ROI            | 28.62% /year |
+| Electricity        | 0.088$/kWh | Electricity    | 0.082$/kWh   |
+| maintenance        | 2$/day     | maintenance    | 0$/day       |
 
-# Что вы получаете?
+# What are you getting?
 
-1. Цифровой майнер 1/9 от стоимости физического обрудования
-2. Еженедельные выплаты в TON на ваш кошелек
-3. Выбор NFT с точки зрения мощности и энергоэффективности
+1. Digital miner 1/9 of the cost of physical equipment
+2. Weekly payouts in TON to your wallet
+3. Choosing an NFT in terms of power and energy efficiency
 
-# Выбор NFT майнеров
+# Selection of NFT miners
 
-Майнеры NFT отличаются друг от друга по мощности и энергоэффективности.
+NFT miners differ from each other in terms of power and energy efficiency.
 
-### Энергоэффективность
+### Energy efficiency
 
-Это количество энергии, необходимое для добычи 1 TH. Чем он ниже, тем эффективнее майнер и тем меньше плата за электроэнергию.
+This is the amount of energy required to mine 1 TH. The lower it is, the more efficient the miner and the lower the electricity fee.
 
-| Тип охлаждения | Мощность |
-| -------------- | -------- |
-| Воздушное      | 50 Вт/ч  |
-| Иммерсионное   | 35 Вт/ч  |
-| Водяное        | 25 Вт/ч  |
+| Cooling type | Power |
+| ------------ | ----- |
+| Air          | 50 Wh |
+| Immersion    | 35 Wh |
+| Water        | 25 Wh |
 
-# Как это работает?
+# How it works?
 
-1. Web3Mining — это настоящий BTC майнинг, где вы выбираете мощность и энергоэффективность оборудования.
-2. Вам не нужно беспокоиться о выборе поставщика, доставке и подключении оборудования, его дорогом обслуживании и затратах на электроэнергию.
+1. Web3Mining is real BTC mining, where you choose the power and energy efficiency of the equipment.
+2. You do not need to worry about choosing a supplier, delivery and connection of equipment, its expensive maintenance and energy costs.
 
-## Прибыльный майнинг начинается сразу после покупки NFT
+## Profitable mining starts immediately after buying NFT
 
-- Стоимость электроэнергии в наших дата-центрах ниже рыночных
-- Предоставляем скидки на оплату оборудования, увеличивая размер вознаграждения
-- майнинг в пуле может принести гораздо больше BTC, чем в одиночку
+- The cost of electricity in our data centers is below market
+- We provide discounts for paying for equipment, increasing the amount of remuneration
+- mining in a pool can bring much more BTC than alone
 
-## Майните и получайте TON
+## Mine and get TON
 
-После того, как вы приобрели NFT, вы становитесь частью мира майнинга и можете решать, как развивать свой бизнес. Мы предлагаем вам сделать это в формате игры, где вы можете выбрать один из (n) сценариев:
+Once you have purchased an NFT, you become part of the mining world and can decide how to grow your business. We suggest you do this in a game format where you can choose from (n) scenarios:
 
 ### 1. SBT Mining NFT
 
-Solo Mining принадлежит NFT. Первое вознаграждение в TON поступит на ваш кошелек на следующий неделе, после покупки NFT.
+Solo Mining is owned by NFT. The first reward in TON will go to your wallet next week, after buying NFT.
 
-### 2. Pool Mining NFT
+### 2. Pool Mining NFTs
 
-Pool Mining игра. Для начала вам нужно присоединиться к пулу или создать свой собственный.
+Pool mining game. First you need to join a pool or create your own.
 
-Вы объединяете вычислительную мощность нескольких Workers. Этот майнинг увеличивает шансы на победу и размер вашего вознаграждения.
+You are pooling the processing power of multiple Workers. This mining increases the chances of winning and the size of your reward.
 
-В случае победы создатель пула получает 1% от общей суммы вознаграждения пула, все остальные участники получают TON пропорционально их активности в игре и мощности.
+In case of victory, the creator of the pool receives 1% of the total pool reward, all other participants receive TON in proportion to their activity in the game and power.
 
-## Reward принципы распределения
+## Reward distribution principles
 
 Mining Reward = PI - ((F1+F2)\*(1-Σd))-(F3+F4)
 
