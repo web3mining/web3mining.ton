@@ -8,7 +8,20 @@ hide_table_of_contents: false
 
 ### Statement of the problem of improving the mechanisms for managing the computing power of BTC workers
 
-_ Signs of a systemic crisis in traditional BTC Mining_
+_Signs of a systemic crisis in traditional BTC Mining_
+
+In the most general form, it is advisable to determine the economic efficiency of Web3Mining through the profitability indicator:
+
+$$R_m={P \over \sum(C)}100 $$
+
+where:
+
+- $$R_m $$
+  profitability of mining;
+- $$P $$
+  profit received from the sale of cryptocurrencies;
+- $$\sum(C) $$  
+  costs associated with the mining process.
 
 This document describes the key concepts of Web3Mining. It also describes the environment in which computing node projects are implemented.
 
